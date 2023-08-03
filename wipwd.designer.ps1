@@ -110,7 +110,7 @@ $wipwd.Controls.Add($button1)
 $wipwd.Controls.Add($comboBox1)
 $wipwd.FormBorderStyle = [System.Windows.Forms.FormBorderStyle]::FixedToolWindow
 $wipwd.Name = [System.String]'wipwd'
-$wipwd.Text = [System.String]'netpwd'
+$wipwd.Text = [System.String]'wipwd'
 $wipwd.add_Load($wipwd_Load)
 $groupBox1.ResumeLayout($false)
 $groupBox1.PerformLayout()
